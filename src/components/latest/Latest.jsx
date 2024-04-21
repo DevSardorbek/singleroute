@@ -1,4 +1,3 @@
-import React from 'react'
 import "../../css/latest.css"
 import cardImg1 from "../../assets/latestimg1.png"
 import cardImg2 from "../../assets/latestimg2.png"
