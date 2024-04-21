@@ -1,0 +1,71 @@
+.about__energy-wrapper {
+  margin-top: 90px;
+  margin-bottom: 70px;
+  .about__energy-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
+    h1 {
+      max-width: 587px;
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 44px;
+      letter-spacing: -0.03em;
+      text-align: left;
+      color: #0d1317;
+    }
+    p {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 30px;
+      text-align: left;
+      color: #1d3444;
+      max-width: 620px;
+    }
+  }
+  .about__energy-cards {
+    display: flex;
+    gap: 46px;
+    margin-top: 64px;
+    .about__card {
+      padding: 10px;
+      border-radius: 10px;
+      transition: 0.4s;
+      &:hover {
+        box-shadow: -3px 8px 48px 0px rgba(226, 208, 208, 0.88) inset;
+        -webkit-box-shadow: -3px 8px 48px 0px rgba(226, 208, 208, 0.88) inset;
+        -moz-box-shadow: -3px 8px 48px 0px rgba(226, 208, 208, 0.88) inset;
+        transform: scale(1.05);
+      }
+      h1 {
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: left;
+        color: #f58a07;
+      }
+      h3 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 25.56px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #0d1317;
+        padding: 16px 0;
+      }
+      p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        color: #5b5b5b;
+      }
+    }
+  }
+}
