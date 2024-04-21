@@ -48,13 +48,16 @@
   }
 }
 .yellowimg {
-  transition: 0.5;
   position: absolute;
+  overflow: hidden;
   img {
+    transform: translateX(-100%);
+    transition: 0.5s !important;
     opacity: 0;
   }
 }
 
 .hero__section-img:hover .yellowimg img {
+  transform: translateX(0%);
   opacity: 0.6;
 }
