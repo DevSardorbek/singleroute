@@ -1,0 +1,100 @@
+.prodact_section {
+  margin: 128px 0;
+  .prodact__title {
+    margin-bottom: 64px;
+    h1 {
+      font-family: Poppins;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 56px;
+      letter-spacing: -0.03em;
+      text-align: left;
+      color: #0d1317;
+    }
+  }
+  .prodact__cards {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    flex-wrap: wrap;
+    .prodact__card {
+      width: 400px;
+      padding: 20px;
+      border-radius: 16px;
+      transition: 0.4s;
+      &:hover {
+        -webkit-box-shadow: 3px 13px 12px 2px rgba(0, 0, 0, 0.41);
+        -moz-box-shadow: 3px 13px 12px 2px rgba(0, 0, 0, 0.41);
+        box-shadow: 3px 13px 12px 2px rgba(0, 0, 0, 0.41);
+        transform: scale(1.03);
+      }
+    }
+    .card_img {
+      img {
+        width: 350px;
+        height: 230px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: contain;
+      }
+    }
+    .card_info {
+      padding: 10px;
+      h2 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #0d1317;
+      }
+      p {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color: #5b5b5b;
+      }
+      .rating {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin: 16px 0;
+        img {
+          width: 100px;
+        }
+        span {
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 21px;
+          color: #787878;
+        }
+      }
+      .price {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        h3 {
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 24px;
+          color: #3bb77e;
+        }
+        del {
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 24px;
+          color: #adadad;
+        }
+      }
+    }
+  }
+}
